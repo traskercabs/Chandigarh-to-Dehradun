@@ -467,7 +467,46 @@
           </select>
         </div>
 
-        
+        <div class="price-box">
+          <div class="price-title">Estimated Delivered Fare</div>
+          <div id="priceDisplay" class="price-val">₹3,499 - ₹3,999</div>
+          <div class="price-sub">Includes state tolls, taxes & fuel</div>
+        </div>
+
+        <button class="btn-action" onclick="handleButtonClick('widget_book')">
+          ⚡ Secure This Route via WhatsApp
+        </button>
+      </div>
+    </header>
+
+    <!-- NEW DASHBOARD WIDGETS -->
+    <section class="dashboard-grid">
+      
+      <!-- Widget 1: LIVE API Weather Widget -->
+      <div class="widget mini-widget">
+        <div class="mini-widget-header">
+          <div class="header-text-group"><span>⛅</span> Corridor Weather</div>
+          <div id="weather-status" class="status-dot">Live Feed</div>
+        </div>
+
+        <div class="weather-container">
+          <div class="weather-row">
+            <div>
+              <div class="weather-city">🏙️ Chandigarh City</div>
+              <div id="chd-cond" class="weather-cond">Connecting Live...</div>
+            </div>
+            <div id="chd-temp" class="weather-temp">--°C</div>
+          </div>
+
+          <div class="weather-row">
+            <div>
+              <div class="weather-city">🌲 Dehradun Valley</div>
+              <div id="ddn-cond" class="weather-cond">Connecting Live...</div>
+            </div>
+            <div id="ddn-temp" class="weather-temp">--°C</div>
+          </div>
+        </div>
+      </div>
 
       <!-- Widget 2: NEW Interactive Dehradun Drop-off Zone Guide [source: 1] -->
       <div class="widget mini-widget">
